@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.one__header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+
+    color: #1D1D1D;
+    padding-bottom: 15px;
+}
+
+.container {
+    width: 1124px;
+    margin: 0 auto;
+}
+
+.main {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.btn__Login {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;  
+
+    margin-right: 30px;
+    padding: 15px 20px 15px 20px;
+    width: 78px;
+
+    transition: 0.4s all ease;
+}
+.btn__Login:hover {
+    background: #57AD56;
+    color: #fff;
+}
+
+.logoPay {
+    text-decoration: none;
+    color: black
+}
+
+.logo, .logo__end {
+    margin: 25px 0 25px 0;
+    font-weight: 900;
+}
+
+.wrapper__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.find__restauran {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #626262;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+    margin: 0;
+    padding-top: 60px;
+}
+
+.rectangle, .rectangle__end {
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    width: 1124px;
+    border: solid #757575 1px;
+
+    margin-bottom: 60px;
+}
+
+.block p{
+    padding-bottom: 5px;
+}
+
+.header__2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+
+    display: flex;
+    align-items: center;
+
+    color: #1D1D1D;
+}
+
+.check__pay {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+
+    color: #626262;
+}
+
+.check__time {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+
+    color: #1D1D1D;
+}
+
+.image__food {
+    width: 310px;
+    background: url(Image.png);
+}
+.image__food:hover {
+    outline: #57AD56 solid 3px;
+}
+
+.wrapper__moscow__restaurants {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__moscow__restaurants__2, .wrapper__moscow__restaurants__3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.footer__margin {
+    margin-bottom: 100px;
+}
+
+.footer {
+    background: #262626;
+}
+
+.logo__end {
+    font-size: 50px;
+    padding: 60px 0 50px 0;
+    color: #fff;
+}
+
+.rectangle__end {
+    border: solid #fff 1px;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    margin-bottom: 35px;
+}
+
+.btn__words {
+    background: #3B3B3B;
+    border: 1px solid #3B3B3B;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    width: 230px;
+    padding-left: 20px;
+}
+.btn__words:hover {
+    background: #57AD56;
+    border: 1px solid #57AD56;
+    border-radius: 2px;
+    transition: 0.2s all ease-in;
+    border-radius: 2px;
+}
+
+.globe__image {
+    background-size: url(../img/Shape.png) no-repeat left;
+    width: 25px;
+    margin: 15px 15px 15px 0;
+}
+
+.shape__image {
+    background-size: url(../img/Shape.png) 
+    no-repeat;
+    width: 18px;
+    margin: 0 0 0 90px;
+}
+
+.hashtag {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.hashtag__gratings {
+    color: #49A144;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    color: #fff;
+}
+
+.footer__text__2017, .footer__text__privacy, .footer__text__terms {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 11px;
+    line-height: 13px;
+    padding-bottom: 40px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+.footer__text__2017:hover, .footer__text__privacy:hover, .footer__text__terms:hover {
+    color: #57AD56;
+    cursor: pointer;
+}
+
+.wrappper__footer__end {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.text__about__uberEats {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 30px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.wrapper__about__uberEats {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+}
+
+.wrapper__about__uberEats ul li a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.wrapper__about__uberEats ul li a:hover {
+    color: #57AD56;
+}
+
+.wrapper__about__uberEats ul li {
+    list-style: none;
+}
+
+.google__play, .app__store, .icon {
+    background: url(Image.png);
+}
+.google__play:hover, .app__store:hover, .icon:hover {
+    cursor: pointer;
+}
+
+.wrapper__download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+/* Responsive */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) 
+{
+    .container, .rectangle, .rectangle__end {
+        width: 960px;
+    }
+
+    .wrappper__footer__end {
+        width: 900px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) 
+{
+    .container, .rectangle, .rectangle__end {
+        width: 720px;
+    }
+
+    .wrappper__footer__end {
+        width: 700px;
+    }
+
+    .wrapper__moscow__restaurants {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .wrapper__moscow__restaurants__2, .wrapper__moscow__restaurants__3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 40px;
+    }
+
+    .wrapper__moscow__restaurants__3 {
+        align-items: flex-start;
+    }
+
+    .wrapper__about__uberEats {
+        width: 540px;
+    }
+}
+
+/* 576px - 786px */
+@media screen and (max-width: 768px)
+{
+    .container, .rectangle, .rectangle__end {
+        width: 540px;
+    }
+
+    .wrappper__footer__end {
+        width: 500px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px)
+{
+    .container, .rectangle, .wrappper__footer__end, .rectangle__end {
+        width: 300px;
+    }
+
+    .wrapper__moscow__restaurants__2, .wrapper__moscow__restaurants__3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .wrapper__moscow__restaurants__3 {
+        align-items: center;
+    }
+
+    .wrapper__about__uberEats {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .padding__uberEats {
+        padding-top: 100px;
+    }
+
+    .image__food {
+        width: 300px;
+    }
+
+    .footer__text__terms {
+        display: flex;
+    }
+}
